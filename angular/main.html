@@ -8,13 +8,14 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-route.min.js"></script>
 </head>
 <body ng-app="routeApp">
+<div class ="bossCont">
 <header>
     <img id="header_image" src="assets/images/logo.png">
     <Ul class="header_menu">
-        <li class="header_menu_list"><a href="#">WELCOME</a></li>
-        <li class="header_menu_list"><a href="#menu">OUR MACARONS</a></li>
-        <li class="header_menu_list"><a href="#gifts">GIFT & PARTIES</a></li>
-        <li class="header_menu_list"><a href="#contact">CONTACT</a></li>
+        <li class="header_menu_list"><a href="#/">WELCOME</a></li>
+        <li class="header_menu_list"><a href="#/menu">OUR MACARONS</a></li>
+        <li class="header_menu_list"><a href="#/gifts">GIFT & PARTIES</a></li>
+        <li class="header_menu_list"><a href="#/contact">CONTACT</a></li>
     </Ul>
 </header>
 <div ng-view></div>
@@ -26,6 +27,7 @@
         <div class="footer_div" id="copy_right">COPYRIGHT © 2014 MBOUTIQUE. ALL RIGHTS RESERVED</div>
     </div>
 </footer>
+</div>
 </body>
 </html>
 <script>
@@ -45,9 +47,8 @@ app.config(function($routeProvider){
                 templateUrl: 'contact.html'
             })
             .otherwise({
-                redirectTo: '/home.html'
+                redirectTo: '/'
             })
 
 });
-
 </script>
