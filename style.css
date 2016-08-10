@@ -1,0 +1,77 @@
+/************************************FRONT PAGE***************************************/
+body {
+    width: 100vw;
+    height: 100vh;
+    margin:0;
+    background-color: red;
+}
+.homeHeader {
+    height:72px;
+    width: 1000px;
+    background: #fffabe;
+}
+.logo {
+    display: inline-block;
+    height: 100%;
+    width: 16%;
+    background-image: url('assets/images/logo.png');
+    background-repeat:no-repeat;
+    background-size: contain;
+    position: relative;
+    top:25%;
+    left: 5%;
+}
+.headerMenu {
+    display: inline-block;
+    list-style-type: none;
+    margin:0;
+    left: 8%;
+    bottom: 30%;
+    position: relative;
+}
+
+.headerMenu > li {
+    display: inline-block;
+    padding-left: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #515151;
+}
+.welcomePic{
+    width: 1000px;
+    height: 400px;
+    background-image: url('assets/images/welcome-image.png');
+
+}
+.macaronPic {
+    display: inline-block;
+    height: 500px;
+    width: 160px;
+    background-image: url("assets/images/macarons-image.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 35px;
+    position: relative;
+    bottom:120px;
+}
+.homeMsg{
+    display: inline-block;
+    height: 600px;
+    width: 651px;
+    overflow: hidden;
+    text-align: justify;
+    margin-left: 30px;
+
+}
+.welcomeHeading{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6a6969;
+}
+
+.welcomeDesc{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6a6969;
+}
