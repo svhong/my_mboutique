@@ -102,7 +102,7 @@ section *{
     display:inline-block;
     left:20px;
     width:780px;
-    text-align: center;
+    text-align: justify;
 }
 .menu_item{
     height: 140px;
