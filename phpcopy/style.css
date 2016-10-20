@@ -1,0 +1,410 @@
+body{
+    width: 100vw;
+    height: 100vh;
+}
+header{
+    width: 1000px;
+    height: 72px;
+    position:relative;
+    background-color:#fffabe;
+}
+#header_image{
+    margin:0 1%;
+    position:relative;
+    display:inline-block;
+    top:27%;
+}
+.header_menu{
+    margin:0;
+    padding:0;
+    position:relative;
+    display:inline-block;
+    list-style-type: none;
+    left:15%;
+    top:20%;
+}
+.header_menu_list{
+    position:relative;
+    display:inline-block;
+    margin: 0 10px;
+    font-family:arial Helvetica sans-serif;
+    font-size:16px;
+    color:#515151;
+}
+.header_menu_list:hover{
+    color:#d42551;
+}
+.header_menu_list > a:link {
+    color: #515151;
+    text-decoration: none;
+}
+.header_menu_list > a:visited {
+    color: #515151;
+    text-decoration: none;
+}
+.header_menu_list > a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.header_menu_list > a:active {
+    color: purple;
+    text-decoration: none;
+}
+
+
+/*css for headers*/
+
+section{
+    position:relative;
+}
+section *{
+    font-size:0;
+}
+.empty_body_div{
+    height:25px;
+}
+.main_body_div{
+    font-size:initial;
+    position:relative;
+    display:inline-block;
+    width:750px;
+}
+#body_image_1{
+    width:1000px;
+    height:400px;
+}
+.main_body_content_container{
+    height:400px;
+    position:relative;
+}
+.body_image_2_container{
+    height:400px;
+    float:left;
+}
+#body_image_2{
+    display:inline-block;
+    position:relative;
+    top:10px;
+    }
+#main_body_1, #main_body_3, #main_body_6{
+    font-family:arial, helvetica,sans-serif;
+    font-size: 20px;
+    color:#6a6969;
+    font-weight: bold;
+    margin:10px 0;
+}
+#main_body_2, #main_body_4, #main_body_5{
+    font-family:arial, helvetica,sans-serif;
+    font-size: 14px;
+    color:#6a6969;
+    margin:10px 0;
+}
+.body_div_container{
+    height:400px;
+    position:relative;
+    display:inline-block;
+    left:20px;
+    width:780px;
+    text-align: justify;
+}
+.menu_item{
+    height: 140px;
+    width: 126px;
+    position:relative;
+    display:inline-block;
+    background-color:#fffabe;
+    margin:5px;
+    left:26px;
+
+}
+.menu_item > div{
+    font-family: arial helvetica sans-serif;
+    color:#6a6969;
+    font-size:12px;
+    height:33px;
+    position:relative;
+    margin:2px 0 0 0;
+}
+.menu_item > *:first-child{
+    font-size:14px;
+}
+
+.menu_item img{
+    position:absolute;
+    right:10px;
+}
+#coconut{
+    background-color:#824603;
+    color:white;
+}
+#vanilla{
+    background-color:#df5277;
+    color:white;
+}
+#lemon{
+    background-color:#a2304e;
+    color:white;
+}
+#almond{
+    background-color:#c39005;
+    color:white;
+}
+
+/*css for body */
+
+footer{
+    width: 1000px;
+    height:80px;
+    background-color:#df5277;
+    color:white;
+    display:inline-block;
+    position:relative;
+}
+.footer_container{
+    width:80%;
+    display:block;
+    position:relative;
+    left:10%;
+    text-align: center;
+    height:100%
+}
+.footer_div{
+    display:inline-block;
+    position:relative;
+    top:10%;
+}
+#email{
+    right:10%;
+}
+#follow_us{
+    left:10%;
+}
+#copy_right{
+    top:25%
+}
+.footer_div > img{
+    margin: 0 5px 0 5px;
+}
+
+
+/*css for footer */
+/*end of assignment 1*/
+
+.our_macarons_body_content{
+    margin:10px 20px;
+    position:relative;
+}
+.our_macarons_body_content *{
+    #border:1px red solid;
+    font-family:arial helvetic sans-serif;
+    color:#6a6969;  /*setting default font and font-color*/
+}
+.macaron_top_section > *{
+    font-size:initial; /*setting the font size to initial, that was set 0 from above "section *"*/
+}
+.macaron_top_section{
+ width:1000px;
+}
+.macaron_mid_section *{
+    font-size:initial;
+}
+.macaron_bottom_section > *{
+    font-size:initial;
+}
+#our_macarons_image{
+    width:1000px;
+    height:400px;
+}
+.our_macarons_body_content h3{
+    font-size:20px;
+}
+.our_macarons_body_content p, .our_macarons_body_content li{
+    font-size:14px;
+}
+
+.macaron_mid_section{
+    position:relative;
+    background-image:url('assets/images/our-macarons-background.png');
+    background-position: 0 70%; /*find out the start position of the background img*/
+    background-repeat:no-repeat; /*what's this grey underline? */
+}
+#macaron_mid_left_container{
+    position:relative;
+    display:inline-block;
+}
+
+/*end of assignment 2 */
+.gift_parties_container{
+    background-image:url('assets/images/gifts-parties-background.png');
+    background-repeat:no-repeat;
+    background-position:100% 90%;
+    height:500px;
+    margin:20px 10px;
+}
+.gift_parties_container *{
+        font-size:initial;
+        font-family:arial helvetica sans-serif;
+        color:#6a6969;
+    }
+.gift_parties_container h3{
+    font-size:20px;
+}
+.gift_parties_container p, .gift_parties_container li{
+    font-size:14px;
+}
+.gift_parties_top span{
+    color:#df5277;
+}
+.gift_parties_bottom{
+    position:relative;
+}
+
+.gift_parties_partytower{
+    position:relative;
+    top:50px;
+    width:600px;
+}
+
+.gift_parties_giftboxes{
+    position:relative;
+    top:30px;
+}
+
+/* end of assignment 3 */
+section *{
+    font-family:arial helvetica sans-serif;
+    color:#6a6969;
+}
+section{
+    width:1000px;
+}
+.contact_body_content_container{
+    width:1000px;
+    text-align: center;
+    position:relative;
+}
+.contact_body_content_container h3{
+    font-size:20px;
+}
+.contact_body_content_container div{
+    font-size:14px;
+}
+.contact_hour_address{
+    position:relative;
+    display:inline-block;
+    width:310px;
+    text-align: initial;
+    vertical-align:top;
+}
+.contact_hour_address> div{
+    margin:15px 15px 15px 0;
+}
+.contact_form{
+    position:relative;
+    display:inline-block;
+    width:310px;
+    text-align: initial;
+}
+.contact_input{
+    width:310px;
+    height:35px;
+    margin: 15px 0 15px 0;
+    position:relative;
+}
+.contact_text{
+    height:70px;
+}
+.contact_input_data{
+    width:310px;
+    height:35px;
+    background-color:#f5f5f5;
+    border:none;
+}
+.contact_input_textarea{
+    width:310px;
+    height:70px;
+    padding:0;
+    background-color:#f5f5f5;
+    border:none;
+}
+.contact_input_data_submit{
+    width:155px;
+    height:35px;
+    position:absolute;
+    right:0;
+    background-color:#f5f5f5;
+    border:none;
+}
+
+.contact_macarons{
+    position:relative;
+    display:inline-block;
+    width:310px;
+}
+
+
+
+@media screen and (max-width: 675px){
+    html, body{
+        width:100%;
+    }
+    header{
+        width:100%;
+    }
+    #header_image{
+        display:block; /*block: b/c block element is greedy and takes the full width, it does not let other elements share same row */
+        width:30%;
+        left:35%;
+        margin:0;
+    }
+    .header_menu{
+        display:block;
+        text-align: center;
+    }
+    .header_menu_list{
+        font-size:60%;
+    }
+    section, section > img{
+        width:100%;
+    }
+    .contact_body_content_container{
+        width:100%;
+    }
+    .contact_hour_address{
+        display:block;
+        width:80%;
+        left:10%;
+    }
+    .contact_form{
+        display:block;
+        width:80%;
+        left:10%;
+    }
+    .contact_input, .contact_input_data, .contact_input_textarea{
+        width:100%;
+    }
+    .contact_input_data_submit{
+        width:50%;
+    }
+    .contact_macarons{
+        display:none;
+    }
+    footer{
+        width:100%;
+    }
+    .footer_div{
+        display:inline-block;
+        position:initial; /*inherited text-align:center: from ".footer_container" line 50 */
+        margin:2%; /*margin calculated based on the width of its parent div (.footer_container)*/
+        font-size:70%;
+    }
+    #copy_right{
+        font-size:55%;
+    }
+}
+.bossCont{
+    position: relative;
+    left: 22%;
+
+}

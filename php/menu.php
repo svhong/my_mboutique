@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>our macarons</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
+
 <body>
 <img id="our_macarons_image" src="assets/images/our-macarons-image.png">
 <div class="empty_body_div"></div> <!-- remove this line to show the gap between the image and header -->
@@ -41,5 +35,3 @@
             serving - about 10 minutes. For best degustation, our macarons should be consumed within 3 days.</p>
     </div>
 </section>
-</body>
-</html>
