@@ -61,7 +61,7 @@
         <div class="menu_item">
             <div>Friday</div>
             <div>11:00-12:00</div>
-            <div>raspbery<img src="assets/images/raspbery.png" alt="raspbery img"></div>
+            <div>raspberry<img src="assets/images/raspbery.png" alt="raspbery img"></div>
             <div id="lemon">lemon<img src="assets/images/lemon.png" alt="lemon img"></div>
         </div>
         <div class="menu_item">
